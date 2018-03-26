@@ -1,3 +1,4 @@
+
 /*
 MPU9250.h
 Brian R Taylor
@@ -25,8 +26,8 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SO
 #define MPU9250_h
 
 #include "Arduino.h"
-#include "Wire.h"    // I2C library
-#include "SPI.h"     // SPI library
+#include "Wire.h"
+#include "SPI.h"
 
 class MPU9250{
   public:
